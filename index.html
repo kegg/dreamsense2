@@ -20,6 +20,12 @@ table {
     height:20px;
 }
 
+.endHover {
+    background-color:#999900;
+    width:20px;
+    height:20px;
+}
+
 .bar {
     background-color:#000099;
     width:530;
@@ -52,6 +58,12 @@ quote {
 	font-size:42pt;
 }
 </style>
+
+<script>
+function goto(x) {
+  document.location.href=x;
+}
+</script>
 </head>
 
 <body>
@@ -95,7 +107,10 @@ quote {
         <td class="end"></td>
         <td class="title">2020-03-05</title>
         <td class="bar"></td>
-        <td class="end"></td>
+        <td class="end"
+          onmouseover="this.className='endHover'"
+          onmouseout="this.className='end'"
+          onClick="goto('ds.html');"></td>
     </tr>
 </table>
 
