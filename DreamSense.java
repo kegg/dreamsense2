@@ -5,8 +5,8 @@ public class DreamSense {
 
   private static String index;
   private static String tickercontent;
+  private static String rules;
   private static StringBuilder sb;
-  private static StringBuilder quotesSB;
   private static String NL = "\n";
 
   public DreamSense() {
@@ -16,8 +16,8 @@ public class DreamSense {
   public void init() {
     index = "ds.html";
     tickercontent = "tickercontent.txt";
+    rules = "rules.html";
     sb = new StringBuilder();
-    quotesSB = new StringBuilder();
   }
 
   private String[] poetry = {
@@ -76,6 +76,7 @@ public class DreamSense {
   };
 
   public String createIndex() {
+    sb.setLength(0);
     sb.append("<!doctype html>");
     sb.append("<html>");
     sb.append("<head>");
@@ -88,6 +89,31 @@ public class DreamSense {
     for (String line : poetry) {
       sb.append(text("p", line));
     }
+    sb.append(elem("hr"));
+    sb.append(text("address", "Copyright &copy; 2020 Kyle Eggleston"));
+    sb.append(text("p", link("index.html", "home")));
+    sb.append("</body>");
+    sb.append("</html>");
+
+    return sb.toString();
+  }
+
+  public String createRulesPage() {
+    sb.setLength(0);
+    sb.append("<!doctype html>");
+    sb.append("<html>");
+    sb.append("<head>");
+    sb.append("<title>DreamSense</title>");
+    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt; text-align:center;} a {color:#fff}</style>");
+    sb.append("</head>");
+    sb.append("<body>");
+    sb.append(text("h1", "DreamSense"));
+    sb.append(text("h2", "Poetry of the dream"));
+    sb.append("<ol>");
+    for (String line : quotes) {
+      sb.append(text("li", line));
+    }
+    sb.append("</ol>");
     sb.append(elem("hr"));
     sb.append(text("address", "Copyright &copy; 2020 Kyle Eggleston"));
     sb.append(text("p", link("index.html", "home")));
@@ -114,14 +140,15 @@ public class DreamSense {
   }
 
   public String createTickerContent() {
-    quotesSB.append("<div>");
+    sb.setLength(0);
+    sb.append("<div>");
     for (String line : quotes) {
-      quotesSB.append(text("div", "message", line));
-      quotesSB.append("\n");
+      sb.append(text("div", "message", line));
+      sb.append("\n");
     }
-    quotesSB.append("</div>");
+    sb.append("</div>");
 
-    return quotesSB.toString();
+    return sb.toString();
   }
 
   public void writeFile(String filename, String content) {
@@ -144,5 +171,8 @@ public class DreamSense {
 
     String q = ds.createTickerContent();
     ds.writeFile(tickercontent, q);
+
+    String r = ds.createRulesPage();
+    ds.writeFile(rules, r);
   }
 }
