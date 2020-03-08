@@ -2,40 +2,40 @@
 
 <div>
   <div class="message">Never forget who you are and what you can do.</div>
-  <div class="message">Look before you leap.</li>
-  <div class="message">Not all simple solutions are the right solution.</li>
-  <div class="message">Don't let your heart get inn the way of your brain.</li>
-  <div class="message">If you don't think something matters, think again.</li>
-  <div class="message">Before you react, think to yourself one thing. Is it really worth it?</li>
-  <div class="message">If something feels like it's too good to be true, it most likely is.</li>
-  <div class="message">Follow your gut.</li>
-  <div class="message">Admitting you're wrong is not a sign of weakness.</li>
-  <div class="message">If someone is talking, don't interrupt them.</li>
-  <div class="message">It's not over until you're dead, and even then it's not over.</li>
+  <div class="message">Look before you leap.</div>
+  <div class="message">Not all simple solutions are the right solution.</div>
+  <div class="message">Don't let your heart get in the way of your brain.</div>
+  <div class="message">If you don't think something matters, think again.</div>
+  <div class="message">Before you react, think to yourself one thing. Is it really worth it?</div>
+  <div class="message">If something feels like it's too good to be true, it most likely is.</div>
+  <div class="message">Follow your gut.</div>
+  <div class="message">Admitting you're wrong is not a sign of weakness.</div>
+  <div class="message">If someone is talking, don't interrupt them.</div>
+  <div class="message">It's not over until you're dead, and even then it's not over.</div>
   <div class="message">The moment you take to look behind you is a second taken away from
-    the end goal.</li>
-  <div class="message">Don't act differently when you think no one is watching.</li>
-  <div class="message">Keep track of your good days.</li>
+    the end goal.</div>
+  <div class="message">Don't act differently when you think no one is watching.</div>
+  <div class="message">Keep track of your good days.</div>
   <div class="message">If you keep telling yourself you aren't good enough, you will eventually
-    believe it.</li>
+    believe it.</div>
   <div class="message">There is no backspace key or white out when it comes to life. There is
-    a learn and move forward option.</li>
-  <div class="message">Try your hardest. Try your best.</li>
-  <div class="message">Sometimes the bad guy gets away.</li>
-  <div class="message">Life doesn't have a pause button.</li>
-  <div class="message">If you think you are better than someone else, think again.</li>
-  <div class="message">Don't be a lemming.</li>
-  <div class="message">If you have something to say, say it. Before it's too late.</li>
-  <div class="message">Don't laugh at the wrong time. You'll only look like a fool.</li>
-  <div class="message">Selfish desires rarely lead to gold.</li>
-  <div class="message">Don't dance with the devil.</li>
-  <div class="message">You can't snooze through life.</li>
-  <div class="message">Being obsessed doesn't make you right.</li>
-  <div class="message">Don't say you're sorry when you have nothing to be sorry for.</li>
-  <div class="message">A conversation with yourself can lead to confusion.</li>
-  <div class="message">Never surrender if the cause is righteous.</li>
-  <div class="message">Fight for what you believe in.</li>
-  <div class="message">Sometimes you have to explain something over again until it sticks!</li>
-  <div class="message">Be positive. Think happy thoughts.</li>
-  <div class="message">Let's not dwell on all the things meant to be seen as stupid mediocrity.</li>
+    a learn and move forward option.</div>
+  <div class="message">Try your hardest. Try your best.</div>
+  <div class="message">Sometimes the bad guy gets away.</div>
+  <div class="message">Life doesn't have a pause button.</div>
+  <div class="message">If you think you are better than someone else, think again.</div>
+  <div class="message">Don't be a lemming.</div>
+  <div class="message">If you have something to say, say it. Before it's too late.</div>
+  <div class="message">Don't laugh at the wrong time. You'll only look like a fool.</div>
+  <div class="message">Selfish desires rarely lead to gold.</div>
+  <div class="message">Don't dance with the devil.</div>
+  <div class="message">You can't snooze through life.</div>
+  <div class="message">Being obsessed doesn't make you right.</div>
+  <div class="message">Don't say you're sorry when you have nothing to be sorry for.</div>
+  <div class="message">A conversation with yourself can lead to confusion.</div>
+  <div class="message">Never surrender if the cause is righteous.</div>
+  <div class="message">Fight for what you believe in.</div>
+  <div class="message">Sometimes you have to explain something over again until it sticks!</div>
+  <div class="message">Be positive. Think happy thoughts.</div>
+  <div class="message">Let's not dwell on all the things meant to be seen as stupid mediocrity.</div>
 </div>
