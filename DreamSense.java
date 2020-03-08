@@ -104,11 +104,11 @@ public class DreamSense {
     sb.append("<html>");
     sb.append("<head>");
     sb.append("<title>DreamSense</title>");
-    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt; text-align:center;} a {color:#fff}</style>");
+    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff}</style>");
     sb.append("</head>");
     sb.append("<body>");
     sb.append(text("h1", "DreamSense"));
-    sb.append(text("h2", "Poetry of the dream"));
+    sb.append(text("h2", "Rules"));
     sb.append("<ol>");
     for (String line : quotes) {
       sb.append(text("li", line));
