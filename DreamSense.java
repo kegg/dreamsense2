@@ -104,7 +104,7 @@ public class DreamSense {
     sb.append("<html>");
     sb.append("<head>");
     sb.append("<title>DreamSense</title>");
-    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff}</style>");
+    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fffz}</style>");
     sb.append("</head>");
     sb.append("<body>");
     sb.append(text("h1", "DreamSense"));
@@ -156,7 +156,7 @@ public class DreamSense {
       FileWriter myWriter = new FileWriter(filename);
       myWriter.write(content);
       myWriter.close();
-      System.out.println("Successfully wrote to the file.");
+      System.out.printf("Successfully wrote to the file [%s].%n", filename);
     } catch (IOException e) {
       System.out.println("An error occurred.");
       e.printStackTrace();
