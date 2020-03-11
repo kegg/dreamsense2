@@ -104,7 +104,7 @@ public class DreamSense {
     sb.append("<html>");
     sb.append("<head>");
     sb.append("<title>DreamSense</title>");
-    sb.append("<style>body {background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff}</style>");
+    sb.append("<style>body {max-width:700; margin:auto; background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff}</style>");
     sb.append("</head>");
     sb.append("<body>");
     sb.append(text("h1", "DreamSense"));
