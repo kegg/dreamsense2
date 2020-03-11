@@ -90,7 +90,7 @@ public class DreamSense {
       sb.append(text("p", line));
     }
     sb.append(elem("hr"));
-    sb.append(text("address", "Copyright &copy; 2020 Kyle Eggleston"));
+    sb.append(text("address", "<p class=\"center\"><img src=\"images/copyright.png\"/></p>"));
     sb.append(text("p", link("index.html", "home")));
     sb.append("</body>");
     sb.append("</html>");
@@ -115,7 +115,7 @@ public class DreamSense {
     }
     sb.append("</ol>");
     sb.append(elem("hr"));
-    sb.append(text("address", "Copyright &copy; 2020 Kyle Eggleston"));
+    sb.append(text("address", "<p class=\"center\"><img src=\"images/copyright.png\"/></p>"));
     sb.append(text("p", link("index.html", "home")));
     sb.append("</body>");
     sb.append("</html>");
