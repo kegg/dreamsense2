@@ -104,7 +104,7 @@ public class DreamSense {
     sb.append("<html>");
     sb.append("<head>");
     sb.append("<title>DreamSense</title>");
-    sb.append("<style>body {max-width:700; margin:auto; background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff}</style>");
+    sb.append("<style>body {max-width:700px; margin:auto; background-color:#000; color:#fff; font-family:ariel, helvetica, sans-serif; font-size:16pt;} a {color:#fff} .center{text-align:center}</style>");
     sb.append("</head>");
     sb.append("<body>");
     sb.append(text("h1", "DreamSense"));
@@ -116,7 +116,7 @@ public class DreamSense {
     sb.append("</ol>");
     sb.append(elem("hr"));
     sb.append(text("address", "<p class=\"center\"><img src=\"images/copyright.png\"/></p>"));
-    sb.append(text("p", link("index.html", "home")));
+    sb.append(text("p", "center", link("index.html", "home")));
     sb.append("</body>");
     sb.append("</html>");
 
