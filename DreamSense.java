@@ -108,7 +108,7 @@ public class DreamSense {
     sb.append("</head>");
     sb.append("<body>");
     sb.append(text("h1", "DreamSense"));
-    sb.append(text("h2", "Rules"));
+    sb.append(text("h2", "Rules To Live By"));
     sb.append("<ol>");
     for (String line : quotes) {
       sb.append(text("li", line));
