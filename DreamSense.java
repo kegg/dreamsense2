@@ -39,6 +39,7 @@ public class DreamSense {
   };
 
   private String[] quotes = {
+    "Life isn't fair",
     "Never forget who you are and what you can do.",
     "Look before you leap.",
     "Not all simple solutions are the right solution.",
@@ -72,7 +73,11 @@ public class DreamSense {
     "Fight for what you believe in.",
     "Sometimes you have to explain something over again until it sticks!",
     "Be positive. Think happy thoughts.",
-    "Let's not dwell on all the things meant to be seen as stupid mediocrity."
+    "Let's not dwell on all the things meant to be seen as stupid mediocrity.",
+    "Our temporary situation is not our destination.",
+    "Don't let anyone rule your life.",
+    "Just because you can do something, doesn't mean you should do it.",
+    "Think twice before speaking."  
   };
 
   public String createIndex() {

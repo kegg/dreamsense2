@@ -1,4 +1,5 @@
-<div><div class="message">Never forget who you are and what you can do.</div>
+<div><div class="message">Life isn't fair</div>
+<div class="message">Never forget who you are and what you can do.</div>
 <div class="message">Look before you leap.</div>
 <div class="message">Not all simple solutions are the right solution.</div>
 <div class="message">Don't let your heart get in the way of your brain.</div>
@@ -32,4 +33,8 @@
 <div class="message">Sometimes you have to explain something over again until it sticks!</div>
 <div class="message">Be positive. Think happy thoughts.</div>
 <div class="message">Let's not dwell on all the things meant to be seen as stupid mediocrity.</div>
+<div class="message">Our temporary situation is not our destination.</div>
+<div class="message">Don't let anyone rule your life.</div>
+<div class="message">Just because you can do something, doesn't mean you should do it.</div>
+<div class="message">Think twice before speaking.</div>
 </div>
